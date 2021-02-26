@@ -1,0 +1,68 @@
+:root {
+    --colorTexto: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto';
+    background: #f8def4;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #fff;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .dados{
+    position:relative;
+    margin: 35px ;
+}
+
+button{
+    font-family: 'roboto';
+    background: #c0689e;
+    border: none;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: #fff;
+    height: 25px;
+    font-size: 15px;
+}
+
+#informacion{
+    font-size: 16px;
+    background: #fff;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+}
+   
+
